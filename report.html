@@ -1,11 +1,11 @@
 ---
 title: Report
-layout: subpage
+layout: default
 zh: report_zh.html
 ---
-<main>
-<h1>W3C Workshop Report on Web and Machine Learning</h1>
-<h2>Executive Summary</h2>
+
+<h2>W3C Workshop Report on Web and Machine Learning</h2>
+<h3>Executive Summary</h3>
 <p>W3C organized a workshop on Web and Machine Learning over the
 course of August and September 2020. This workshop brought together
 web platform and machine learning practitioners to enrich the Open
@@ -43,9 +43,9 @@ further developed in W3C Community Groups.</p>
 the W3C’s ability to adapt to the changing environment that relies
 on online collaboration technologies in the midst of the global
 pandemic.</p>
-<h2>Sessions</h2>
-<h3 id=opp>Opportunities and Challenges of Browser-Based Machine
-Learning</h3>
+<h3>Sessions</h3>
+<h4 id=opp>Opportunities and Challenges of Browser-Based Machine
+Learning</h4>
 <p>The <a href="minutes/20200916.html">first live session</a> started by articulating the workshop live
 sessions around four top-level topics: <a href="#opp">Opportunities and
 Challenges</a>, <a href="#foundations">Web Platform Foundations</a>, <a href="#dev">Developer’s Perspective</a>, and
@@ -66,7 +66,7 @@ opportunities and challenges with a specific view on unique
 opportunities of browser-based machine learning, and identifying
 obstacles hindering adoption of machine learning technologies on
 the web platform.</p>
-<h4>Improving existing web platform capabilities</h4>
+<h5>Improving existing web platform capabilities</h5>
 <p>The <a class=topic href="https://github.com/w3c/machine-learning-workshop/issues/66">fitness of the WebGPU API to support machine learning
 frameworks</a> sparked active discussion and identified new WebGPU
 extensions that could substantially benefit ML - most notably the
@@ -119,7 +119,7 @@ discussions thus suggested the <a href="https://www.w3.org/2001/tag/">W3C Techni
 would be well positioned to drive coordination on the larger
 question of permission model for compute-heavy APIs from a
 platform-wide perspective.</p>
-<h4>Extending beyond the browser</h4>
+<h5>Extending beyond the browser</h5>
 <p>Several contributions to the workshop noted
 the <a class=topic href="https://github.com/w3c/machine-learning-workshop/issues/62">applicability to non-browser JS environments of the
 browser-targeted machine learning capabilities</a>, in particular
@@ -133,11 +133,11 @@ between TC53 and related W3C groups working on ML APIs. The goal of
 this coordination would be to ensure a common conceptual basis
 while not necessarily targeting a one-size-fits-all API design
 across classes of devices.</p>
-<h3 id=foundations>Web Platform Foundations for Machine Learning</h3>
+<h4 id=foundations>Web Platform Foundations for Machine Learning</h4>
 <p>The <a href="https://www.w3.org/2020/06/machine-learning-workshop/minutes/20200922.html">second live session</a> focused on Web Platform Foundations with
 a goal to understand how machine learning fits into the Web
 technology stack.</p>
-<h4>Considerations for creating and deploying models</h4>
+<h5>Considerations for creating and deploying models</h5>
 <p>This live session discussed machine learning model formats, use
 cases and requirements for protecting machine learning models,
 in-browser training drawing from early experiments in this space,
@@ -195,13 +195,13 @@ computing resources of the end devices and the edge server. The
 conclusion from discussions was to work with the <a href="https://www.w3.org/web-networks/">Web & Networks
 Interest Group</a> to ensure its <a href="https://www.w3.org/wiki/Networks/Edge_computing">edge computing workstream</a> considers ML
 usages.</p>
-<h3 id=dev>Machine Learning Experiences on the Web: A Developer's
-Perspective</h3>
+<h4 id=dev>Machine Learning Experiences on the Web: A Developer's
+Perspective</h4>
 <p>The <a href="https://www.w3.org/2020/06/machine-learning-workshop/minutes/20200923.html">third live session</a> focused on topics that offer the
 developer's perspective and discussed learnings from authoring ML
 experiences, reusing pre-trained ML models, discussing technical
 solutions and gaps.</p>
-<h4>Applying web design principles to ML</h4>
+<h5>Applying web design principles to ML</h5>
 <p><a class=topic href="https://github.com/w3c/machine-learning-workshop/issues/68">Progressive enhancement and graceful degradation</a> are
 established web development and design strategies — the workshop
 participants discussed how they would apply in the context of
@@ -234,7 +234,7 @@ tractable. WebGPU has parallels with the WebNN API, and a proposal
 emerged that a conformance test suite for ML APIs need to consider
 multiple levels of conformance, both operator-level and model-level
 interoperability.</p>
-<h4>Improving web developer ergonomics</h4>
+<h5>Improving web developer ergonomics</h5>
 <p>Machine learning processing typically involves a lot of matrix
 operations, and thus the ergonomics of the JavaScript language for
 these operations plays a direct role in the ergonomics of JS APIs.
@@ -274,13 +274,13 @@ not optimized for storing graph data. The group identified the
 <a href="https://wicg.github.io/file-system-access/">Filesystem Access API</a> in active incubation as one possible
 alternative for IndexedDB that could help alleviate the storage
 issues.</p>
-<h3 id=user>Machine Learning Experiences on the Web: A User's
-Perspective</h3>
+<h4 id=user>Machine Learning Experiences on the Web: A User's
+Perspective</h4>
 <p>The first half of the <a href="https://www.w3.org/2020/06/machine-learning-workshop/minutes/20200929.html">last live session</a> focused on user's
 perspective topics under the banner of Web & ML for all to
 highlight the profound impact these technologies combined will have
 on billions of people who are using the Web.</p>
-<h4>Web & ML for all</h4>
+<h5>Web & ML for all</h5>
 <p>Discussions on <a class=topic href="https://github.com/w3c/machine-learning-workshop/issues/108">bias and model transparency</a>
 highlighted the impact on minorities and underrepresented
 groups as explored in the talks <a class=talk href="https://www.w3.org/2020/06/machine-learning-workshop/talks/we_count_fair_treatment_disability_and_machine_learning.html">We Count: Fair Treatment,
@@ -323,11 +323,11 @@ right level of granularity to make ML efficient today. While a lot
 of work beyond the WebNN API is needed, the participants clearly
 agreed that WebNN API is a critical first piece, and in a good
 enough shape to transition to standardization.</p>
-<h2 id=next>Next Steps</h2>
+<h3 id=next>Next Steps</h3>
 <p>The <a href="https://www.w3.org/2020/06/machine-learning-workshop/minutes/20200929.html#conclusion">second half of the fourth session</a> was spent discussing
 overall workshop conclusions and next steps to chart the path
 forward.</p>
-<h3>Next Steps in Standardization</h3>
+<h4>Next Steps in Standardization</h4>
 <p>Building on the emerging consensus that the WebNN API is the
 right first step in bringing Machine Learning capabilities to the
 Web platform, the workshop participants propose that a new W3C
@@ -338,7 +338,7 @@ progress</a>.</p>
 <p>W3C is also encouraged to liaise with Ecma TC39 with regard to
 the value of standardizing <code>float16</code> and operator overloading in the
 context of Machine Learning processing.</p>
-<h3>Next Steps in Incubation</h3>
+<h4>Next Steps in Incubation</h4>
 <p>The workshop participants supported the continued incubation of
 the Model Loader API in the Web Machine Learning Community Group to
 validate its ability to support interoperable deployment of ML
@@ -351,7 +351,7 @@ to compute-intensive APIs and to optimizing memory copy in media
 processing is proposed to be taken up respectively by the W3C
 Technical architecture and the Media & Entertainment Interest
 Group.</p>
-<h3>Other exploratory work</h3>
+<h4>Other exploratory work</h4>
 <p>Some questions remain more open-ended and workshop participants
 and the wider community are invited to continue exploring their
 problem space to identify if and how they can be answered in the
@@ -367,7 +367,7 @@ Group.</li>
 <li>Does ML model storage require any specific browser adaptation
 or would the File System Access API cover all that is needed?</li>
 </ul>
-<h2>Acknowledgements</h2>
+<h3>Acknowledgements</h3>
 <p>The organizers express deep gratitude to those who helped with
 the organization and execution of the workshop, starting with the
 members of the <a href="https://www.w3.org/2020/06/machine-learning-workshop/index.html#program">Program Committee</a> who provided initial support and
