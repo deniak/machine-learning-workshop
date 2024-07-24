@@ -1,0 +1,21 @@
+pages:
+
+- title: Workshop Overview
+  url: /2020/06/machine-learning-workshop/
+  html: /
+
+- title: Report
+  url: report
+  html: /report.html
+
+- title: Minutes
+  url: proceeding
+  html: /proceeding.html
+
+- title: Presentations
+  url: presentations
+  html: /presentations.html
+
+- title: Call for Participation
+  url: cfp
+  html: /cfp.html
