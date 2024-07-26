@@ -3,6 +3,6 @@ description: > # this means to ignore newlines until "theme:"
   A virtual event with pre-recorded talks and interactive sessions 
 member_only: false
 baseurl: "/2020/06/machine-learning-workshop" # the subpath of the site
-remote_theme: deniak/w3c-jekyll-theme
+remote_theme: w3c/w3c-jekyll-theme
 plugins:
 - jekyll-remote-theme
